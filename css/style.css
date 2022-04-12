@@ -1,6 +1,4 @@
-/*No CSS usando *{ }, dessa forma todas as modificações que inserir ali serão aplicadas em tudo,
-todos os elementos terão essas modificações*/
-    
+
                        /*Cabeçalho*/
 *{
     margin:0;
@@ -57,17 +55,10 @@ select{
     background-repeat: no-repeat;
 
     background-position: calc(100% - 10px) center;
-
-    /*   OU
     
-    background-position-x: calc(100% - 10px);
-    background-position-y: center;*/
-
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    /*retiramos o estilo de todos os appearence em todos
-     os navegadores para então colocarmos um appearence universal*/
 }
 
 input, select{
@@ -138,22 +129,3 @@ footer{
         margin-top: 5px;
     }
 }
-
-/*
-
-
-
-footer{
-        background-color: #202121;
-        padding: 40px;
-        text-align: center;
-        position: relative;
-
-        section{
-        padding: 20px;
-        background-image: url('../images/people.jpg');
-        background-size: cover;
-        overflow: hidden;
-        position: absolute;
-    }
-    }*/
